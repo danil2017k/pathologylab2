@@ -1,0 +1,23 @@
+{
+    "id": "78684e29-2176-49e5-bb69-abdc1e2cba1f",
+    "case_id": "4b464834-1720-4e35-91b3-a67d3bf15348",
+    "title": "25599 2015.mrxs",
+    "name": "4b464834/1720/4e35/91b3/a67d3bf15348.mrxs",
+    "preview": null,
+    "type": "snapshot",
+    "type_data": {
+        "mpp": 0.3288444649612685,
+        "anotations": [],
+        "setting": []
+    },
+    "creation_date": 1467649476.406658,
+    "last_change_date": 1659973694.59199,
+    "sort_order": 8770,
+    "is_processed": true,
+    "stains": [
+        "d05b0789-ab40-48ec-88f2-9ee9d6deabbc"
+    ],
+    "pinned": false
+}
+
+

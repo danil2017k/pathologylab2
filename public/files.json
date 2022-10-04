@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "id": "4b464834-1720-4e35-91b3-a67d3bf15348",
+      "title": "Round 2. Case 3",
+      "status": "validation",
+      "patient_name": "",
+      "patient_birth_date": null,
+      "patient_gender": "m",
+      "is_published": true,
+      "description": "52 years old patient with submucosal asymptomatic\r\nstomach mass approximately 1,8х0,8х2,1 см. No tumor markers (i.e\r\nCA19-9, CA125, CEA) alterations were detected in patient probe. ",
+      "modificators": {
+        "disabled": []
+      },
+      "creation_date": 1467649369.396152,
+      "last_change_date": 1659973669.995779,
+      "puzzle": "9e6f0209-da95-4a5d-aa40-7286d73d760f",
+      "chat": true,
+      "reportsEnabled": false,
+      "owner": {
+        "id": "2ae053b3-ddfa-43fe-ab82-59a24161d822",
+        "name": "Pathology Puzzles International",
+        "email": "pathologypuzzlesint@unim.info",
+        "photo": "6ef2654a-ea8f-40eb-aa78-c7029d3fd8aa.png"
+      },
+      "specialization": {
+        "id": "8c9dea85-6570-46be-ad0e-6c82d3a4c1c5",
+        "name": "Gastrointestinal"
+      },
+      "collaborators": [],
+      "is_puzzles_editor": false,
+      "files": [
+        {
+          "id": "78684e29-2176-49e5-bb69-abdc1e2cba1f",
+          "case_id": "4b464834-1720-4e35-91b3-a67d3bf15348",
+          "title": "25599 2015.mrxs",
+          "name": "4b464834/1720/4e35/91b3/a67d3bf15348.mrxs",
+          "preview": null,
+          "type": "snapshot",
+          "type_data": {
+            "mpp": 0.3288444649612685,
+            "marks": [],
+            "rulers": []
+          },
+          "creation_date": 1467649476.406658,
+          "last_change_date": 1659973694.59199,
+          "sort_order": 8770,
+          "is_processed": true,
+          "stains": [
+            "d05b0789-ab40-48ec-88f2-9ee9d6deabbc"
+          ],
+          "pinned": false
+        }
+      ],
+      "report": {},
+      "last_view_date": 1660185662.503474
+    }
+  ]
+}

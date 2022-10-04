@@ -1,0 +1,128 @@
+.a9s-toolbar-btn {
+  margin:4px 4px 4px 0;
+  outline:0;
+  border:none;
+  cursor:pointer;
+  background-color:transparent;
+  border-radius:4px;
+  padding:8px;
+  width:45px;
+  height:45px;
+}
+
+.a9s-toolbar-btn:hover {
+  background-color:rgba(0,0,0,0.05);
+}
+
+.a9s-toolbar-btn-inner {
+  display:flex;
+}
+
+.a9s-toolbar-btn svg {
+  overflow:visible;
+  width:100%;
+  height:100%;
+}
+
+.a9s-toolbar-btn svg * {
+  stroke-width:5px;
+  fill:none;
+  stroke:rgba(0,0,0,0.5);
+}
+
+.a9s-toolbar-btn g.handles circle {
+  stroke-width:4px;
+  fill:#fff;
+  stroke:#000;
+}
+
+.a9s-toolbar-btn.active {
+  background-color:rgba(0,0,0,0.3);
+}
+
+.a9s-toolbar-btn.active svg * {
+  stroke:rgba(255,255,255,0.6);
+}
+
+.a9s-toolbar-btn.active g.handles circle {
+  stroke:#fff;
+  fill:rgba(0,0,0,0.2);
+}
+svg.a9s-annotationlayer .a9s-selection .a9s-outer, 
+svg.a9s-annotationlayer .a9s-annotation .a9s-outer {
+  display:none;
+}
+
+svg.a9s-annotationlayer .a9s-handle .a9s-handle-outer {
+  display:none;
+}
+
+/** New style for the annotation outlines **/
+svg.a9s-annotationlayer .a9s-selection .a9s-inner,
+svg.a9s-annotationlayer .a9s-annotation .a9s-inner  {
+  stroke-width:4;
+  stroke:rgb(218, 89, 89);
+  stroke-dasharray:6;
+}
+
+line.a9s-inner  {
+  stroke: rgb(218, 89, 89) !important;
+  stroke-width: 150 !important;
+
+}
+/** Disable the hover effect from the default stylesheet **/
+svg.a9s-annotationlayer .a9s-annotation.editable:hover .a9s-inner {
+  fill:transparent;
+}
+
+/** Corner handles **/
+svg.a9s-annotationlayer .a9s-handle .a9s-handle-inner {
+  fill:rgb(215, 28, 28);
+  stroke:white;
+}
+
+/* * Enable the dim mask, black with 60% transparency **/
+svg.a9s-annotationlayer .a9s-selection-mask {
+  fill:rgba(0, 0, 0, 0.6);
+}
+
+.colorselector-widget {
+  padding:5px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+.colorselector-widget button {
+  outline:none;
+  border:none;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  cursor:pointer;
+  opacity:0.5;
+  margin:4px;
+}
+
+.colorselector-widget button.selected,
+.colorselector-widget button:hover {
+  opacity:1;
+}
+
+svg.a9s-annotationlayer .a9s-annotation.RED .a9s-outer {
+  stroke:red;
+  stroke-width:3;
+  fill:rgba(255, 0, 0, 0.3);
+}
+
+svg.a9s-annotationlayer .a9s-annotation.GREEN .a9s-outer {
+  stroke:green;
+  stroke-width:3;
+  fill:rgba(0, 255, 0, 0.3);
+}
+
+svg.a9s-annotationlayer .a9s-annotation.BLUE .a9s-outer {
+  stroke:blue;
+  stroke-width:3;
+  fill:rgba(0, 0, 255, 0.3);
+}
+

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2019-11-27T08:15:48.119617Z" version="8.5.0">
+  <properties>
+    <property>
+      <name>width</name>
+      <value type="gint">34295</value>
+    </property>
+    <property>
+      <name>height</name>
+      <value type="gint">35206</value>
+    </property>
+    <property>
+      <name>bands</name>
+      <value type="gint">3</value>
+    </property>
+    <property>
+      <name>xoffset</name>
+      <value type="gint">0</value>
+    </property>
+    <property>
+      <name>yoffset</name>
+      <value type="gint">0</value>
+    </property>
+    <property>
+      <name>xres</name>
+      <value type="gdouble">1</value>
+    </property>
+    <property>
+      <name>yres</name>
+      <value type="gdouble">1</value>
+    </property>
+  </properties>
+</image>
